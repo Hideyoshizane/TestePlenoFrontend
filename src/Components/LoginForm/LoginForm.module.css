@@ -1,3 +1,7 @@
+.custom-toast .Toastify__progress-bar {
+    background-color: #D32F2F;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -75,6 +79,7 @@
     height: 48px;
     cursor: pointer;
 }
+
 
 .registerTitle {
     font-size: 12px;
