@@ -16,6 +16,7 @@
     font-size: 18px;
     font-weight: 700;
     color: #F8F9FA;
+    padding-bottom: 24px;
 }
 
 .inputTitle {
@@ -84,4 +85,5 @@
 
     color: #F8F9FA;
     background-color: #868E96;
+    cursor: pointer;
 }

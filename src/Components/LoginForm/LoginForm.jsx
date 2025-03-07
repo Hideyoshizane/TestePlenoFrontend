@@ -1,7 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import styles from './LoginForm.module.css';
 
 const LoginForm = () => {
+	const navigate = useNavigate();
+
+	const handleClickRedirect = () => {
+		navigate('/register');
+	};
+
 	return (
 		<div className={styles.container}>
 			<form>
@@ -21,7 +29,9 @@ const LoginForm = () => {
 				</div>
 			</form>
 			<h2 className={styles.registerTitle}>Ainda não possui uma conta?</h2>
-			<button className={styles.registerButton}>Cadastre-se</button>
+			<button className={styles.registerButton} onClick={handleClickRedirect}>
+				Cadastre-se
+			</button>
 		</div>
 	);
 };
