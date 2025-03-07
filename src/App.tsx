@@ -1,17 +1,16 @@
-import { useState } from 'react'
+import LoginForm from './Components/LoginForm/LoginForm';
 
+import '../styles/fonts.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-  setCount(1);
-  console.log(count);
-  return (
-    <>
-      <div>
-        <h3>Teste Frontend PL </h3>
-      </div>
-    </>
-  )
+	return (
+		<>
+			<div>
+				<h3>Teste Frontend PL </h3>
+				<LoginForm />
+			</div>
+		</>
+	);
 }
 
-export default App
+export default App;
