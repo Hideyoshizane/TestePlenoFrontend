@@ -22,6 +22,7 @@ const LoginForm: React.FC = () => {
 		navigate('/register');
 	};
 
+	// Altera ver a senha
 	const togglePasswordVisibility = () => {
 		setIsPasswordVisible(!isPasswordVisible);
 	};
