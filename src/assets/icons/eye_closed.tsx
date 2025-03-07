@@ -1,5 +1,4 @@
-import * as React from 'react';
-const SVGComponent = (props) => (
+const SVGComponent = (props: any) => (
 	<svg width="24px" height="24px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 		<path
 			fillRule="evenodd"

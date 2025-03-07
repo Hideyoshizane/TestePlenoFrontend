@@ -5,7 +5,7 @@ import LoginForm from '../../Components/LoginForm/LoginForm';
 
 import styles from './LoginPage.module.css';
 
-const LoginPage = () => {
+const LoginPage: React.FC = () => {
 	return (
 		<div className={styles.container}>
 			<img src={Logo} alt="Capys Logo" />

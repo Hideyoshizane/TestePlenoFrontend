@@ -1,5 +1,4 @@
-import * as React from 'react';
-const SVGComponent = (props) => (
+const SVGComponent = (props: any) => (
 	<svg
 		fill="#868E96"
 		width="24px"
