@@ -8,7 +8,7 @@ const HomeMainBody: React.FC = () => {
 	const [livros, setLivros] = useState<any[]>([]);
 
 	useEffect(() => {
-		fetch('http://localhost:3000/alivros')
+		fetch('http://localhost:3000/livros')
 			.then((response) => {
 				if (!response.ok) {
 					throw new Error('Network response was not ok');
