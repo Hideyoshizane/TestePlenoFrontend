@@ -1,0 +1,37 @@
+.subHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #021A30;
+    background-color: #01121F;
+    height: 118px;
+    width: auto;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F8F9FA;
+    padding-left: 32px;
+}
+
+.vaga {
+    font-size: 12px;
+    color: #868E96;
+}
+
+@media(max-width:420px) {
+
+    .subHeader {
+        border: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 24px;
+    }
+
+    .userName {
+        padding-left: 0px;
+    }
+
+}
