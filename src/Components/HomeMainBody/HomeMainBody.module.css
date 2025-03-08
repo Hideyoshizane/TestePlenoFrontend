@@ -5,21 +5,17 @@
 }
 
 .title {
+    color: #F8F9FA;
     font-size: 18px;
     font-weight: 700;
-    color: #F8F9FA;
 }
 
 .subTitle {
-    font-size: 16px;
     color: #F8F9FA;
+    font-size: 16px;
 }
 
 @media(max-width:600px) {
-
-    .emptyState {
-        padding-left: 0px;
-    }
 
     .subTitle {
         width: 297px;

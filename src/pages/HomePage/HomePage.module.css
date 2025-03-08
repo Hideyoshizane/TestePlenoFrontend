@@ -10,9 +10,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
     width: 100vw;
     height: 100vh;
+    gap: 24px;
     background-color: #01121F;
 }
 
@@ -26,13 +26,13 @@ body {
 }
 
 .returnButton {
-    font-size: 12px;
-    font-weight: 700;
-    color: #F8F9FA;
-    background-color: #021A30;
-    border: none;
     width: 56px;
     height: 32px;
+    border: none;
+    color: #F8F9FA;
+    background-color: #021A30;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 @media(max-width:420px) {

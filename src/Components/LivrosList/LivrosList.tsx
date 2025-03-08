@@ -26,7 +26,7 @@ const LivrosList: React.FC<LivrosListProps> = ({ livros }) => {
 						<div className={styles.placeholderIcon}>Image</div>
 						<h2>{livro.NOME}</h2>
 						<p>Autor: {livro.AUTOR}</p>
-						<p>Avaliação: {livro.Star} ⭐️</p>
+						<p>Avaliação: {livro.Star}⭐️</p>
 						<p>{livro.FL_FAVORITO ? 'Favorito' : 'Não Favorito'}</p>
 					</div>
 				))}
