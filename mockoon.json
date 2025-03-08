@@ -1,0 +1,31 @@
+{
+	"uuid": "bb4afc63-35d7-495c-b7ad-4da83e91f3d5",
+	"type": "http",
+	"documentation": "",
+	"method": "get",
+	"endpoint": "livros",
+	"responses": [
+		{
+			"uuid": "35f97a01-5d7c-486c-ae18-397177cab220",
+			"body": "{\n  \"lstLivros\": [\n    {\n      \"ID\": 1,\n      \"NOME\": \"Dracula Dark Edition\",\n      \"Star\": 3.5,\n      \"DATA_PUBLICACAO\": \"2018-10-24\",\n      \"EDITORA\": \"Darkside\",\n      \"AUTOR\": \"Bram Stoker\",\n      \"FL_FAVORITO\": true\n    },\n    {\n      \"ID\": 2,\n      \"NOME\": \"A Chegada do Terceiro Reich\",\n      \"Star\": 4,\n      \"DATA_PUBLICACAO\": \"2017-02-20\",\n      \"EDITORA\": \"Critica\",\n      \"AUTOR\": \"Richard J. Evans\",\n      \"FL_FAVORITO\": true\n    },\n    {\n      \"ID\": 3,\n      \"NOME\": \"Harry Potter e a Pedra Filosofal\",\n      \"Star\": 4,\n      \"DATA_PUBLICACAO\": \"2017-08-19\",\n      \"EDITORA\": \"Rocco\",\n      \"AUTOR\": \"J.K. Rowling\",\n      \"FL_FAVORITO\": true\n    },\n    {\n      \"ID\": 4,\n      \"NOME\": \"A Biblioteca da Meia-Noite\",\n      \"Star\": 4.5,\n      \"DATA_PUBLICACAO\": \"2021-09-20\",\n      \"EDITORA\": \"Bertrand\",\n      \"AUTOR\": \"Matt Haig\",\n      \"FL_FAVORITO\": true\n    },\n    {\n      \"ID\": 5,\n      \"NOME\": \"As Crônicas de Nárnia - Coleção de Luxo: O Leão, a Feiticeira e o Guarda-roupa\",\n      \"Star\": 5,\n      \"DATA_PUBLICACAO\": \"2023-01-15\",\n      \"EDITORA\": \"HarperCollins\",\n      \"AUTOR\": \"Clive Staples Lewis\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 6,\n      \"NOME\": \"Box Trilogia O Senhor dos Anéis\",\n      \"Star\": 5,\n      \"DATA_PUBLICACAO\": \"2019-10-25\",\n      \"EDITORA\": \"HarperCollins\",\n      \"AUTOR\": \"J. R. R. Tolkien\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 7,\n      \"NOME\": \"A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade\",\n      \"Star\": 5,\n      \"DATA_PUBLICACAO\": \"2021-03-15\",\n      \"EDITORA\": \"HarperCollins\",\n      \"AUTOR\": \"Morgan Housel\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 8,\n      \"NOME\": \"A princesa salva a si mesma neste livro\",\n      \"Star\": 4.5,\n      \"DATA_PUBLICACAO\": \"2017-10-30\",\n      \"EDITORA\": \"Leya\",\n      \"AUTOR\": \"Amanda Lovelace\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 9,\n      \"NOME\": \"Antes que o café esfrie\",\n      \"Star\": 4.5,\n      \"DATA_PUBLICACAO\": \"2022-04-15\",\n      \"EDITORA\": \"Valentina\",\n      \"AUTOR\": \"Toshikazu Kawaguchi\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 10,\n      \"NOME\": \"Hamlet\",\n      \"Star\": 5,\n      \"DATA_PUBLICACAO\": \"2021-04-26\",\n      \"EDITORA\": \"Principis\",\n      \"AUTOR\": \"William Shakespeare\",\n      \"FL_FAVORITO\": false\n    },\n    {\n      \"ID\": 11,\n      \"NOME\": \"Cartas de um diabo a seu aprendiz\",\n      \"Star\": 5,\n      \"DATA_PUBLICACAO\": \"2017-10-18\",\n      \"EDITORA\": \"Thomas Nelson Brasil\",\n      \"AUTOR\": \"C.S. Lewis\",\n      \"FL_FAVORITO\": false\n    }\n  ]\n}",
+			"latency": 0,
+			"statusCode": 200,
+			"label": "",
+			"headers": [],
+			"bodyType": "INLINE",
+			"filePath": "",
+			"databucketID": "",
+			"sendFileAsBody": false,
+			"rules": [],
+			"rulesOperator": "OR",
+			"disableTemplating": false,
+			"fallbackTo404": false,
+			"default": true,
+			"crudKey": "id",
+			"callbacks": []
+		}
+	],
+	"responseMode": null,
+	"streamingMode": null,
+	"streamingInterval": 0
+}
